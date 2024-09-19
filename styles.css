@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-left h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .footer-left p {
+    margin: 0.5rem 0;
+  }
+  
+  .footer-right h3 {
+    margin-top: 0;
+  }
+  
+  .footer-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* Home Page Styles */
+  .hero {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-content {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .hero-image {
+    flex: 1;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: 20%;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  
+  .featured-products {
+    margin-bottom: 2rem;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Register Page Styles */
+  .register-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* About Page Styles */
+  .about-us {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-image {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-content {
+    flex: 1;
+  }
+  
+  .company-info {
+    margin-top: 2rem;
+  }
+  
+  .company-info table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .company-info th, .company-info td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .company-info th {
+    text-align: left;
+  }
+  
+  /* Products Page Styles */
+  .products {
+    margin-bottom: 2rem;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table th, .product-table td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-table th {
+    text-align: left;
+  }
+  
+  .product-table img {
+    max-width: 100px;
+    height: auto;
+  }
