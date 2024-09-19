@@ -57,8 +57,7 @@ body {
     padding: 0;
   }
   
-  
-  /* Home Page Styles */
+
   .hero {
     display: flex;
     align-items: center;
@@ -108,8 +107,7 @@ body {
     max-width: 100%;
     height: auto;
   }
-  
-  /* Register Page Styles */
+
   .register-form {
     max-width: 400px;
     margin: 0 auto;
@@ -132,7 +130,7 @@ body {
     border-radius: 4px;
   }
   
-  /* About Page Styles */
+
   .about-us {
     display: flex;
     align-items: center;
@@ -171,7 +169,7 @@ body {
     text-align: left;
   }
   
-  /* Products Page Styles */
+
   .products {
     margin-bottom: 2rem;
   }
